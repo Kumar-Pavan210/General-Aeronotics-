@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/single_item">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        tools:ignore="NotSibling">
+       <androidx.cardview.widget.CardView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           app:cardCornerRadius="20dp"
+           android:elevation="0dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="20dp">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/user_image"
+               />
+       </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/baloo"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pavan gowda"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/baloo"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/baloo"
+            android:text="Kulas Light Apt. 556 Gwenborough"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:lineHeight="8dp"/>
+
+        <TextView
+            android:id="@+id/lati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/baloo"
+            android:text="Kulas Light Apt. 556 Gwenborough"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/longi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/baloo"
+            android:text="Kulas Light Apt. 556 Gwenborough"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
